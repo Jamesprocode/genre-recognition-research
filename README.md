@@ -1,7 +1,3 @@
-Here's a sample GitHub README for your project:
-
----
-
 # Music Genre Classification Using Machine Learning
 
 This project explores the effectiveness of different machine learning algorithms and feature selection in genre classification. Using the GTZAN dataset, we implemented four models to classify music genres based on audio features extracted with the openSMILE package. The goal was to identify the most accurate model and the optimal number of parameters for genre recognition.
