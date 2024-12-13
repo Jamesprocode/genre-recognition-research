@@ -80,4 +80,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ---
 
-This README will help users understand the structure, goals, and results of your project.
