@@ -30,40 +30,6 @@ Four machine learning models were tested:
 - **Highest Accuracy**: 89% classification rate using 2,000 to 3,000 parameters.
 - **Insights**: The MLP model outperformed other models, suggesting that deep learning architectures can handle complex audio feature spaces effectively in genre classification tasks.
 
-## Repository Structure
-
-- `data/`: Contains the GTZAN dataset (ensure compliance with dataset licensing for redistribution).
-- `notebooks/`: Jupyter notebooks with model training, testing, and evaluation.
-- `models/`: Saved model files for each ML algorithm.
-- `results/`: Evaluation metrics, including confusion matrices and accuracy scores.
-- `scripts/`: Python scripts for feature extraction, training, and evaluation.
-
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/genre-classification.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download the GTZAN dataset and place it in the `data/` directory.
-4. Run feature extraction:
-   ```bash
-   python scripts/extract_features.py
-   ```
-
-## Usage
-
-1. Train a model:
-   ```bash
-   python scripts/train_model.py --model "MLP" --features "2000"
-   ```
-2. Evaluate a model:
-   ```bash
-   python scripts/evaluate_model.py --model "MLP"
-   ```
 
 ## Contributing
 
